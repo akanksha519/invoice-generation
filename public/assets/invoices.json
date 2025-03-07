@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "storeName": "ABC Mart",
+    "orderID": "ORD123",
+    "date": "2024-03-01",
+    "items": [
+      {
+        "name": "Product A",
+        "quantity": 2,
+        "dealPrice": 500
+      },
+      {
+        "name": "Product B",
+        "quantity": 1,
+        "dealPrice": 300
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "storeName": "XYZ Store",
+    "orderID": "ORD456",
+    "date": "2024-03-02",
+    "items": [
+      {
+        "name": "Product C",
+        "quantity": 3,
+        "dealPrice": 200
+      }
+    ]
+  }
+]

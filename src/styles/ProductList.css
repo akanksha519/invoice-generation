@@ -1,0 +1,56 @@
+.product-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.product-list h2 {
+  text-align: center;
+}
+
+.product-list input,
+.product-list select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-list li:last-child {
+  border-bottom: none;
+}
+
+.product-list button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.product-list .edit {
+  background-color: #ffc107;
+  color: white;
+  margin-right: 5px;
+}
+
+.product-list .delete {
+  background-color: #dc3545;
+  color: white;
+}
